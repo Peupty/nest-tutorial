@@ -1,0 +1,12 @@
+POST http://localhost:8000/auth/sign-in
+Content-Type: application/json
+
+{
+    "email": "asd@asd.pl",
+    "password": "dupa"
+}
+
+
+GET http://localhost:8000/users/me
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoiYXNkQGFzZC5wbCIsImlhdCI6MTY1MTEwNTEyNywiZXhwIjoxNjUxMTA2MDI3fQ.oHjFVx1SkaYrM10mDcLjTVxLTa7f35ZuN_Sw8tzHk1c
